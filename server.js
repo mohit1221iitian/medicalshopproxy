@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 
 // The single endpoint to proxy all requests to Google Apps Script
 app.all('/proxy', async (req, res) => {
-    const googleScriptUrl = 'https://script.google.com/macros/s/AKfycby848GbNgyjOyahLWYrAFBC8Wp3xs2w_0nGqiTogbk1I5tTKBkNP_2f95WEmUR5Bkz0/exec';
+    const googleScriptUrl = 'https://script.google.com/macros/s/AKfycbyr4vwtcSsOPWEFceYWiihHMN6V3J5jPk5BnJeJt_zyysgd8MC_dBh4yw1SZRKi5Vug/exec';
     try {
         const requestOptions = {
             method: req.method,
